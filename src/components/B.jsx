@@ -9,6 +9,7 @@ function B() {
     },[]);
   return (
     <div>
+      <h1>hii.</h1>
         {products && products.map((p,index)=>(
             <div key={index}>
             <h1>{p.id}</h1>
